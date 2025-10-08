@@ -1,0 +1,42 @@
+non-suspicious packet is detected  Time :2025-10-08 14:51:05
+source : 192.168.1.1 
+destination : 10.0.0.1 
+port : 22 
+payload : india 
+protocol : TCP 
+
+non-suspicious packet is detected  Time :2025-10-08 14:51:05
+source : 192.168.1.2 
+destination : 10.0.0.3 
+port : 25 
+payload : mandavi 
+protocol : TCP 
+
+non-suspicious packet is detected  Time :2025-10-08 14:51:05
+source : 10.0.0.1 
+destination : 168.127.1.2 
+port : 20 
+payload : USA 
+protocol : TCP 
+
+suspicious packet is detected  Time :2025-10-08 14:51:05
+source : 20.0.0.1 
+destination : 192.168.1.1 
+port : 80 
+payload : AMERICA 
+protocol : TCP 
+
+suspicious packet is detected  Time :2025-10-08 14:51:05
+source : unknown 
+destination : 30.0.0.2 
+port : 22 
+payload : krishit 
+protocol : TCP 
+
+suspicious packet is detected  Time :2025-10-08 14:51:05
+source : 192.168.3.1 
+destination : unknown 
+port : 10 
+payload : china 
+protocol : TCP 
+
