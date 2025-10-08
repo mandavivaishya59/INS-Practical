@@ -29,8 +29,5 @@ key = int(input("Number of rails: "))
 enc = encrypt(text, key)
 print("Encrypted text:", enc)
 
-
-cipher = input("Enter text to decrypt: ")
-key = int(input("Number of rails: "))
-dec = decrypt(cipher, key)
+dec = decrypt(enc, key)
 print("Decrypted text:", dec)
