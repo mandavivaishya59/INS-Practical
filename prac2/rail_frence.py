@@ -26,6 +26,7 @@ def decrypt(cipher, rails):
 # --- Main Program ---
 text = input("Enter text to encrypt: ")
 key = int(input("Number of rails: "))
+
 enc = encrypt(text, key)
 print("Encrypted text:", enc)
 
