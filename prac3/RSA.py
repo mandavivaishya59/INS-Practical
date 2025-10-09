@@ -18,7 +18,7 @@ message = input("\nEnter a message: ").encode()
 # Encrypt message
 cipher = PKCS1_OAEP.new(public_key)
 encrypted = cipher.encrypt(message)
-print("\nEncrypted message:", encrypted)
+print("\nEncrypted message:", encrypted.hex())
 
 # Decrypt message
 decipher = PKCS1_OAEP.new(key)
